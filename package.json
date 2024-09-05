@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "serve -s dist",
-    "dev":"vite",
+    "dev": "vite",
     "build": "vite build",
     "heroku-postbuild": "npm install && npm run build"
   },
