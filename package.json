@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "serve -s dist",
-      "build": "vite build",
-  "heroku-postbuild": "npm install && npm run build"
+    "build": "vite build",
+    "heroku-postbuild": "npm install && npm run build"
   },
   "engines": {
     "node": "v20.15.1",
